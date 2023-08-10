@@ -41,6 +41,7 @@ func tugas_1() {
 	fmt.Println(ArrayMerge([]string{},[]string{}))
 }
 
+// TUGAS 2
 func Mapping(slice []string) map[string]int  {
 	unique := getUnique(slice)
 	countMap := make(map[string]int)
@@ -79,6 +80,7 @@ func tugas_2() {
 	fmt.Println(Mapping([]string{}))
 }
 
+// TUGAS 3
 func munculSekali(angka string) []int {
 	numbers := strings.Split(angka,"")
 	// fmt.Println(len(numbers))
