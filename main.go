@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"strings"
+	"learn-golang/pembayaran"
 	"strconv"
+	"strings"
 )
 
 // TUGAS 1
@@ -121,4 +122,5 @@ func main() {
 	fmt.Println("=== TUGAS 3 ===")
 	tugas_3()	
 	fmt.Println("===============")
+	pembayaran.Bayar()
 }

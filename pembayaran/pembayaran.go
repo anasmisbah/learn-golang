@@ -1,0 +1,5 @@
+package pembayaran
+
+func Bayar()  {
+	
+}
